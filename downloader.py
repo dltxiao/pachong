@@ -19,5 +19,3 @@ def download(url, retry_num = 2):
                 #遇到5xx错误时重新下载
                 return download(url, retry_num - 1)
     return html
-
-print download("http://httpstat.us/500")

@@ -34,4 +34,4 @@ def get_links(html):
     # list of all links from the webpage
     return webpage_regex.findall(html)
 
-link_crawler('http://example.webscraping.com', '/(index|view)')
+link_crawler('http://172.18.5.118/virus', '')
